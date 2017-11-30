@@ -1,0 +1,24 @@
+2017-11-23 17:13:03,540 - __main__                       - INFO    
+Files that will be searched:
+C:\Users\Carrie\Downloads\AI2Files\mobydick-chapter1.txt
+C:\Users\Carrie\Downloads\AI2Files\mobydick-chapter2.txt
+C:\Users\Carrie\Downloads\AI2Files\mobydick-chapter3.txt
+C:\Users\Carrie\Downloads\AI2Files\mobydick-chapter4.txt
+C:\Users\Carrie\Downloads\AI2Files\mobydick-chapter5.txt
+2017-11-23 17:13:03,540 - __main__                       - INFO    
+Searching for words:
+queequeg
+whale
+sea
+2017-11-29 20:05:36,749 - __main__                       - INFO    
+Files that will be searched:
+.\SampleFiles\mobydick-chapter1.txt
+.\SampleFiles\mobydick-chapter2.txt
+.\SampleFiles\mobydick-chapter3.txt
+.\SampleFiles\mobydick-chapter4.txt
+.\SampleFiles\mobydick-chapter5.txt
+2017-11-29 20:05:36,749 - __main__                       - INFO    
+Searching for words:
+queequeg
+whale
+sea

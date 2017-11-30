@@ -1,0 +1,3 @@
+The word "queequeg" has the highest term frequency in the document "mobydick-chapter4.txt" of value 0.00663.
+The word "whale" has the highest term frequency in the document "mobydick-chapter1.txt" of value 0.00135.
+The word "sea" has the highest term frequency in the document "mobydick-chapter1.txt" of value 0.00451.

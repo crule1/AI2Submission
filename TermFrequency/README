@@ -1,0 +1,38 @@
+This README file describes the functionality in termfrequency.py
+
+To run: Can be run via command line. Optional input of a file containing 2 lines (description below).
+        Default path for all files is the current working directory. If files are not located there
+        full path should be given. Python 3 should be used.
+
+
+Inputs: 1) Files to search. This can either be the path to a single directory containing all the files
+           or it can be a path to each file separated by a space
+        2) Words to determine term frequency of separated by a space
+
+        - command line -
+        The command line can take a file as input that has the inputs as described above. The files in the corpus
+        on line 1 (or folder to the corpus) and the list of words on line 2.
+
+Outputs: The module outputs a file called 'out.txt' with the highest term frequencies and files. There is
+         also a 'log.txt' file that displays the files in the corpus and the words that were searched for.
+         These files are written to the current working directory.
+
+Functions: input_file_list(the_input=None)
+            Input should be either a directory containing files or a string with paths to files separated by a
+            blank space if is the empty the funcion prompts user for the corpus and returns a list of paths to documents
+
+           input_word_list(string_of_words=None)
+            Prompts user for list of words and returns a list of words in lowercase with punctuation
+            removed from front and back of word
+
+           create_term_frequency_dict(file_list, word_list)
+            From a list of files and a list of words the function creates and returns a dictionary of
+            term frequencies with the keys as the tuples (word, filename)
+
+           find_max_term_frequency(word, term_frequency_dict)
+            Given an individual word and a term frequency dictionary this function returns the dictionary
+            key of that max value.
+
+           get_max_term_frequency_lists(word_list, term_frequency_dict)
+            Given a word list and a term frequency dictionary this function returns a list of the highest
+            term frequency for each word and the name of document it occurs in
